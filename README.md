@@ -1,9 +1,8 @@
-# Resuelve sudoku
+# Solve sudoku
 
 <img src="https://img.shields.io/badge/GPL-v3-green"/>
 
-Implementación de un algoritmo genético, mediante el framework **DEAP**, para resolver un sudoku con 17 números conocidos.
-La función **fitness** se plantea como un problema de minimización, consiste en evaluar que no se repitan los números en las filas, columnas ni sectores, de lo contrario, se incrementa en una unidad el fitness, por lo que el fitness idóneo para un sudoku resuelto es de **0.0**.   
-### Desafortunadamente el algoritmo se estanca en mínimos locales y no alcanza la solución.   
-## Cualquier aporte o sugerencia será de mucha ayuda
-
+Implementation of a genetic algorithm, using the **DEAP** framework, to solve a sudoku with 17 known numbers.
+The **fitness** function is proposed as a minimization problem, it consists in evaluating that the numbers are not repeated in the rows, columns or sectors, otherwise, the fitness is increased in one unit, so the ideal fitness for a solved sudoku is **0.0**.   
+### Unfortunately the algorithm stagnates in local minimums and does not reach the solution.   
+## Any contribution or suggestion will be very helpful
